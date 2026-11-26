@@ -1,0 +1,10 @@
+Full sources for src/main.jsx and electron/main.cjs are in the Cookie Vault 1.5.1 zip attached in chat / local artifacts because of GitHub API payload limits from this environment.
+
+Clone this repo, then copy from the zip:
+  src/main.jsx
+  electron/main.cjs
+
+Or run from the zip alone:
+  npm install && npm run dev
+
+SOCKS5 is implemented in electron/main.cjs (socks5Connect + type socks5).
