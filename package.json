@@ -1,8 +1,8 @@
 {
   "name": "cookie-vault-windows",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "private": true,
-  "description": "Cookie Vault — inventory, import, validation, proxy (HTTP+SOCKS5), vault, restore/revive, DevTools HAR",
+  "description": "Cookie Vault — inventory, import, validation, proxy, vault, restore/revive",
   "main": "electron/main.cjs",
   "author": "Cookie Vault",
   "license": "UNLICENSED",
