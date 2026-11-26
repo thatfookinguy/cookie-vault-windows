@@ -1,6 +1,6 @@
 # Cookie Vault (Windows)
 
-## Complete install from GitHub
+## Full install from GitHub
 
 ```powershell
 git clone https://github.com/thatfookinguy/cookie-vault-windows.git
@@ -10,14 +10,14 @@ npm install
 npm run dev
 ```
 
-Use **Node 20 or 22 LTS** (not Node 26).
+**Node 20 or 22 LTS required** (not Node 26).
 
-After `reconstruct-sources.js`, you get full `electron/main.cjs`, `src/main.jsx`, and `src/styles.css`.
+`reconstruct-sources.js` rebuilds `electron/main.cjs`, `src/main.jsx`, and `src/styles.css` from `github-payload/`.
 
 ## Features
 - Large cookie folder scan + match active site
-- Live session validation (logged in?)
-- Account insights (membership/plan when site returns it)
+- Live session validation (still logged in?)
+- Membership / plan via Pull account info when the site returns it
 - HTTP + SOCKS5 proxies
 
 Cookie values are never shown in the UI.
